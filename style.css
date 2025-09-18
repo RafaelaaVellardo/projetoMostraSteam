@@ -212,3 +212,115 @@ p{
     
     
 }
+.arma{
+    margin: 2%;
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    margin-top: 0px;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.armaimg{
+    width: 48%;
+    margin-right: 30px;
+    
+}
+.armaimg2{
+    width: 43%;
+    
+}
+.armaimg3{
+    margin-bottom: 50px;
+    
+}
+.tituarm{
+    margin-bottom: 20px;
+}
+.armabloco{
+    border-radius: 30px;
+    margin: 8%;
+    margin-right: 0%;
+    width: 670px;
+    padding: 4px;
+    background-color: #B89D79;
+    margin-top: 0px;
+}
+
+.armabloco li{
+    color: white;
+}
+
+.afetados{
+    
+    margin: 4%;
+    margin-top: 0%;
+    margin-right: 0%;
+    width: 1100px;
+    padding: 4px;
+    
+    margin-top: 0px;
+}
+.coisa{
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    
+}
+.coisa img{
+    border-radius: 20Px;
+    width: 400px;
+    height: 300px;
+    margin-right: 8%;
+    box-shadow: 0.9em 1em 0.5em  #00000059;
+    margin-left: 80px;
+}
+.conteiner3{
+    border-radius: 30px;
+    margin: 5%;
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    background-color: #DFD4BA;
+}
+.conteiner3 h3{
+    font-size: 30px;
+    margin-left: 5%;
+    margin-bottom: -10px;
+
+}
+
+.acaba{
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 80px;
+    color: white;
+    font-family: joan;
+}
+.curio{
+    margin: 8%;
+    margin-right: 0%;
+    color: white;
+    padding: 4px;
+    background-color: #4B3837;
+    margin-top: 0px;
+    padding-bottom: 70px;
+}
+.curio li{
+    margin-left: 8%;
+}
+.fontes{
+    margin: 4%;
+    margin-top: 0%;
+    margin-right: 0%;
+    width: 1100px;
+    padding: 4px;
+    margin-top: 0px;
+}
+a{
+    color: white;
+}

@@ -10,28 +10,58 @@
 <body>
     <div class="navbar">
         <ul>
-            <li>Início</li>
+            <li onclick="inicio()">Início</li>
             <li>Assuntos
                 <ul class="submenu">
+                    <a href="#contexto">
                 <li class="submenuTex">Contexto</li>
-                <li class="submenuTex">Brasil na guerra</li>
-                <li class="submenuTex">História</li>
+            </a>
+            <a href="#ac">
+                <li class="submenuTex">Aonde?</li>
+            </a>
+            <a href="#pq">
+                <li class="submenuTex">Por que?</li>
+            </a>
+            <a href="#df">
+                <li class="submenuTex">Dificuldades</li>
+            </a>
+            <a href="#br">
+                <li class="submenuTex">Brasil</li>
+            </a>
+            <a href="#arm">
+                <li class="submenuTex">Armamentos</li>
+            </a>
+            <a href="#afet">
+                <li class="submenuTex">Pessoas afetadas</li>
+            </a>
+            <a href="#win">
+                <li class="submenuTex">Como foi ganha?</li>
+            </a>
+            <a href="#curi">
+                <li class="submenuTex">Curiosidades</li>
+            </a>
+            <a href="#font">
+                <li class="submenuTex">Fontes</li>
+            </a>
                 </ul>
             </li>
-            <li>Mapa</li>
+            <li onclick="mapa()">Mapa</li>
             
         </ul>
     </div>
     <img class="titulo" src="imagens/Titulo.png" alt="">
     <div class="conteudo">
+        <section id="contexto">
     <h2>contexto</h2>
     <p>A Batalha do Atlântico foi a campanha naval mais longa e estratégica da Segunda Guerra Mundial. Iniciada em 3 de setembro de 1939, poucas horas após a Grã-Bretanha declarar guerra à Alemanha, e encerrada apenas em 8 de maio de 1945, no Dia da Vitória na Europa (VE Day), ela se estendeu por quase seis anos. Foi um conflito decisivo, pois garantiu o fluxo de suprimentos, tropas e armamentos entre a América do Norte e a Europa. Sem essa vitória, os Aliados dificilmente teriam sustentado a guerra contra a Alemanha nazista.</p>
+</section>
+<section id="ac">
     <div class="ondeAconteceu">
         <div class="ondeAconteceutxt">
             <h2><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
             <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10"/>
             <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
-            </svg>onde aconteceu?</h2>
+            </svg>Aonde aconteceu?</h2>
             <p>O teatro de operações foi vasto, abrangendo:</p>
             <ul>
                 <li> O Oceano Atlântico em toda sua extensão.</li>
@@ -54,10 +84,12 @@
     <div class="corredorimg">  
         <img src="imagens/corredorimge.png" alt="">
     </div>
-      
+</section>
+<section id="pq">
     <h2>Por que aconteceu?</h2>
     <p> A batalha surgiu da necessidade vital de manter ou interromper as linhas de suprimento. Para a Alemanha, o objetivo era sufocar a Grã-Bretanha, cortando o abastecimento de alimentos, combustível, armas e matérias-primas. Os submarinos alemães, os temidos U-boats, eram a principal arma nessa estratégia. Para os Aliados, garantir a chegada desses recursos era essencial para resistir ao cerco nazista, planejar contra-ofensivas e, mais tarde, preparar a invasão da Europa ocupada.O almirante alemão Karl Dönitz reconheceu que os Estados Unidos demorariam a organizar comboios e construir navios suficientes para defesa. Por isso, a Alemanha explorou esse período inicial de fragilidade para tentar vencer a guerra no mar.</p>
-
+</section>
+<section id="df">
     <h2>Quais foram as dificuldades?</h2>
     <p>A Batalha do Atlântico foi marcada por inúmeros desafios, tanto tecnológicos quanto estratégicos:</p>
     
@@ -106,6 +138,8 @@
     </div>
     <img src="imagens/troço.png" alt="">
 </div>
+</section>
+<section id="br">
     <h2>Como o Brasil participou?</h2>
     <p class="brasilCome">O Brasil entrou na guerra em 22 de agosto de 1942, após ataques a navios mercantes brasileiros por submarinos do Eixo.</p>
     <div class="brasilTex">
@@ -113,6 +147,134 @@
         O Brasil também participou ativamente no combate: em julho de 1943, em operação conjunta com os EUA, ajudou a afundar o submarino alemão U-199 no litoral do Rio de Janeiro. Cerca de 1.600 brasileiros morreram em consequência da campanha, entre civis e militares.</p>
     <img src="imagens/marinhabr.jpg" alt="">
 </div>
+</section>
+<section id="arm">
+<h2 class="tituarm">Armamentos Utilizados</h2>
+<div class="arma">
+<img class="armaimg" src="imagens/uboat.png" alt="">
+<img class="armaimg2" src="imagens/radar.png" alt="">
+</div>
+<div class="arma">
+    <img class="armaimg3" src="imagens/canhao.png" alt="">
+    <div class="armabloco">
+            <ul>
+                <li> Submarinos U-boats armados com torpedos convencionais e acústicos.</li>
+                <br>
+                <li>Cargas de profundidade lançadas por navios de escolta.</li> 
+                <br>
+                <li>Canhões antiaéreos nos submarinos alemães.</li>
+                <br>
+                <li>Radar e sonar para detecção de submarinos.</li>
+                <br>
+                <li>Aeronaves patrulheiras com radares centimétricos.</li>
+                <br>
+            </ul> 
+        </div>
+</div>
+</section>
+<section id="afet">
+<h2 class="tituarm">Quantas pessoas foram afetadas? </h2>
+<div class="afetados">
+    <ul>
+        <li> O custo humano da batalha foi imenso:</li>
+        <li>Aliados: cerca de 36.200 marinheiros de guerra e 36.000 mercantes mortos; 3.500 navios mercantes e 175 navios de guerra perdidos; 741 aeronaves derrubadas.</li> 
+        <br><br>
+        <li>Alemães: cerca de 30.000 tripulantes de U-boats morreram; 783 submarinos foram afundados.</li>
+        <br><br>
+        <li>Brasil: aproximadamente 1.600 mortos em ataques e combates no Atlântico Sul.</li>
+        <br><br>
+        <li>Estima-se que apenas entre os U-boats, 28.000 dos 41.000 tripulantes não sobreviveram.</li>
+        <br><br>
+        
+    </ul> 
+</div>
+</section>
+<section id="win">
+<h2>Como foi ganha?</h2>
+<p>A virada veio a partir de 1943, com uma combinação de fatores decisivos:</p>
+<div class="coisa">
+    <img src="imagens/1.png" alt="">
+<div class="conteiner3">
+    <div>  
+        <h3>Superioridade Tecnológica:</h3>
+        <p> Uso do radar centimétrico, sonar (ASDIC), cargas de profundidade aprimoradas e o lançador Hedgehog.</p>
     </div>
+</div>
+</div>
+<div class="coisa">
+    <img src="imagens/2.png" alt="">
+<div class="conteiner3">
+    <div>  
+        <h3>Cobertura Aérea Total</h3>
+        <p> Com o B-24 Liberator e porta-aviões de escolta, o Atlântico deixou de ter áreas sem defesa.</p>
+    </div>
+</div>
+</div>
+<div class="coisa">
+    <img src="imagens/3.png" alt="">
+<div class="conteiner3">
+    <div>  
+        <h3>Quebra dos códigos da Enigma (Ultra):</h3>
+        <p> Permitiu prever movimentações dos U-boats e redirecionar comboios com segurança.</p>
+    </div>
+</div>
+</div>
+<div class="coisa">
+    <img src="imagens/4.png" alt="">
+<div class="conteiner3">
+    <div>  
+        <h3>Produção industrial em massa:</h3>
+        <p> Os EUA fabricaram milhares de navios mercantes e de guerra, garantindo suprimentos constantes.</p>
+    </div>
+</div>
+</div>
+<div class="coisa">
+    <img src="imagens/5.png" alt="">
+<div class="conteiner3">
+    <div>  
+        <h3>Melhor coordenação dos comboios:</h3>
+        <p> Destróieres e fragatas especializadas em escolta reduziram drasticamente as perdas.</p>
+    </div>
+</div>
+</div>
+</section>
+<section id="curi">
+<h2 class="acaba">Curiosidades:</h2>
+<div class="curio">
+    <p>A Batalha do Atlântico foi fundamental para o desfecho da guerra.</p>
+    <br>
+    <p> A derrota dos U-boats possibilitou:</p>
+    <ul>
+        <li>O sucesso da invasão da Normandia (Dia D), já que tropas e suprimentos chegaram com segurança.</li> 
+        <br><br>
+        <li>A implementação posterior do Plano Marshall, que dependia da livre circulação marítima.</li>
+        <br><br>
+        <li>A consolidação da cooperação militar entre os Aliados, especialmente entre Reino Unido, EUA, Canadá e Brasil.</li>
+        <br><br>
+    </ul> 
+    <p>Por sua duração, intensidade e importância, a Batalha do Atlântico é considerada a campanha naval mais longa e decisiva da Segunda Guerra Mundial.
+    </p>
+</div>
+</section>
+<section id="font">
+<h2 class="acaba">Fontes:</h2>
+<div class="fontes">
+<a href="https://en.wikipedia.org/wiki/Battle_of_the_Atlantic">
+<p>https://en.wikipedia.org/wiki/Battle_of_the_Atlantic</p></a>
+<a href="https://oceanexplorer.noaa.gov/explorations/16battlefield/background/battle/battle.html ">
+<p>https://oceanexplorer.noaa.gov/explorations/16battlefield/background/battle/battle.html </p></a>
+<a href="https://courses.lumenlearning.com/suny-hccc-worldhistory2/chapter/conflict-in-the-atlantic/">
+<p>https://courses.lumenlearning.com/suny-hccc-worldhistory2/chapter/conflict-in-the-atlantic/</p></a>
+<a href="https://www.iwm.org.uk/history/the-battle-of-the-atlantic-explained">
+<p>https://www.iwm.org.uk/history/the-battle-of-the-atlantic-explained</p></a>
+<a href="https://en.wikipedia.org/wiki/Brazilian_Expeditionary_Force">
+<p>https://en.wikipedia.org/wiki/Brazilian_Expeditionary_Force</p></a>
+<a href="BBC">
+<p>BBC</p></a>
+<a href="Brazilian Navy in WW2 - Marinha do Brasil">
+<p>Brazilian Navy in WW2 - Marinha do Brasil</p></a>
+</div>
+    </div>
+</section>
 </body>
 </html>
